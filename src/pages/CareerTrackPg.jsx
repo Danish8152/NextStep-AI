@@ -1,7 +1,9 @@
+import { useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import { Bookmark } from 'lucide-react';
 
 const DeveloperRoadmaps = () => {
+  const navigate = useNavigate();
   const [bookmarked, setBookmarked] = useState(new Set());
 
   const roadmaps = [
@@ -46,7 +48,7 @@ const DeveloperRoadmaps = () => {
     title: {
       fontSize: '64px',
       fontWeight: '700',
-      color:'#007bff',
+      color: '#007bff',
       marginBottom: '24px',
       letterSpacing: '-0.02em'
     },
@@ -114,6 +116,7 @@ const DeveloperRoadmaps = () => {
           <div
             key={roadmap.id}
             style={styles.card}
+            onClick={() => navigate(`/roadmap/${roadmap.id}`)} // 👈 add this
             onMouseEnter={(e) => {
               e.currentTarget.style.borderColor = 'rgba(167, 139, 250, 0.5)';
               e.currentTarget.style.transform = 'translateY(-2px)';

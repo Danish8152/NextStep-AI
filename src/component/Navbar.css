@@ -17,6 +17,11 @@ body {
     z-index: 100; 
 }
 
+#Navbar a {
+    text-decoration: none; /* removes underline */
+    color: inherit; /* inherits color from li */
+}
+
 .Logo {
     font-weight: bold;
     font-size: 20px;
@@ -40,7 +45,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     transition: color 0.2s ease;
-    text-decoration: none;
+    list-style: none;
 }
 
 .middle-navbar ul li:hover {
