@@ -1,0 +1,30 @@
+
+#Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8fafc;
+  padding: 15px 50px;
+  border-top: 1px solid #e5e7eb;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+}
+
+#Footer h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #374151;
+  cursor: pointer;
+}
+
+#Footer .footer-right {
+  display: flex;
+  gap: 25px;
+}
+
+#Footer .footer-right h4:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}

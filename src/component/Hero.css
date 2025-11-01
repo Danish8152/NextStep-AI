@@ -1,0 +1,69 @@
+#hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background: linear-gradient(135deg, #e0f2ff, #f8f9ff);
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    color: #0a2540;
+}
+
+#hero h1:nth-child(2) {
+    color: #007bff;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#hero p {
+    max-width: 700px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+#hero div {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+#hero button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#hero button:first-child {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#hero button:first-child:hover {
+    background-color: #0056b3;
+}
+
+#hero button:last-child {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+#hero button:last-child:hover {
+    background-color: #007bff;
+    color: #fff;
+}
