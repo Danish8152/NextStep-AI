@@ -209,7 +209,7 @@ const CareerAdvisor = () => {
     <div style={styles.container}>
       <div style={styles.card}>
         <div style={styles.header}>
-          <Sparkles size={50} color="#8b5cf6" />
+          <Sparkles size={50} color="#4f46e5" />
           <h1 style={{ fontSize: '28px', color: '#111827', margin: '10px 0' }}>AI Career Advisor</h1>
           <p style={{ color: '#6b7280' }}>Answer a few questions to discover your ideal career path</p>
         </div>

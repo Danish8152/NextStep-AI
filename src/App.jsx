@@ -9,6 +9,10 @@ import CareerTrackPg from "./pages/CareerTrackPg";
 import RoadmapDetail from './pages/RoadmapDetail';
 import CareerAdvisor from "./pages/CareerAdviser";
 import ResumeAnalyzer from "./pages/ResumeAnys";
+import ChatBot from "./component/ChatBot";
+import SignIn from "./component/SignIn";
+import SignUp from "./component/SignUp";
+
 function App() {
   return (
     <Router>
@@ -31,7 +35,10 @@ function App() {
         <Route path="/roadmap/:id" element={<RoadmapDetail />} />
         <Route path="/ai-career-finder" element={<CareerAdvisor />} />
         <Route path="/resume-insights" element={<ResumeAnalyzer />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
+      <ChatBot/>
       <Footer />
     </Router>
   );

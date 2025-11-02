@@ -266,7 +266,7 @@ function ResumeAnalyzer() {
     <div
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(to bottom right, #7c3aed, #4c1d95)",
+        background: "linear-gradient(135deg, #e0f2ff, #f8f9ff)",
         padding: "20px",
       }}
     >
@@ -289,7 +289,7 @@ function ResumeAnalyzer() {
           }}
         >
           <h1 style={{ fontSize: "42px", fontWeight: "bold", marginBottom: "10px" }}>
-            🎯 Career Path Analyzer
+            📊 NextStep AI Career Analyzer
           </h1>
           <p style={{ fontSize: "20px", opacity: 0.9 }}>
             Upload your resume and discover your perfect career trajectory
