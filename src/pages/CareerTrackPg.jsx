@@ -19,7 +19,7 @@ const DeveloperRoadmaps = () => {
     { id: 10, title: 'Machine Learning' },
     { id: 11, title: 'PostgreSQL' },
     { id: 12, title: 'iOS' },
-    { id: 12, title: 'iOoS' }
+    { id: 12, title: 'iOS' }
   ];
 
   
